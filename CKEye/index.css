@@ -1,0 +1,216 @@
+
+/* indexページ */
+
+/* wrapper -------------------------------------*/
+.wrapper{
+    display: flex;
+    flex-direction: column;
+}
+/* btn ------------------------------------*/
+.btn{
+    display: flex;
+    justify-content: flex-end;
+    width: 90%;
+}
+a{
+    margin: 20px 0;
+    color: #000;
+    border-bottom: 1px solid #000;
+    list-style: none;
+    text-decoration: none;
+}
+
+/* title ------------------------------------*/
+.title{
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.title h2{
+    line-height: 35px;
+    font-size: 35px;
+}
+
+/* contents_wrapper > contents ------------------------------------*/
+.contents{
+    max-width: 900px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+/* contents_wrapper > contents > item ------------------------------------*/
+.item{
+    opacity: 0.55;
+}
+.item img{
+    /* ドラッグ禁止(リンクコピーできてだるいので) */
+    user-select:none;
+    -webkit-user-select:none;
+    -ms-user-select: none;
+    -moz-user-select:none;
+    -khtml-user-select:none;
+    -webkit-user-drag:none;
+    -khtml-user-drag:none;
+}
+/* --封印処理(brockage)--------------------------------------*/
+.brockage{
+    font-size:2em;
+    padding-left:0.5em;
+    padding-top:2em;
+}
+
+/* contents_wrapper > contents > Uranus ------------------------------------*/
+.contents_wrapper .contents .Uranus{
+    position: relative;
+}
+.contents_wrapper .contents .Uranus h1{
+    position: absolute;
+    top: 15px;
+    left: 20px;
+}
+.contents_wrapper .contents .Uranus h2{
+    position: absolute;
+    top: 45px;
+    left: 30px;
+}
+.contents_wrapper .contents .Uranus p{
+    position: absolute;
+    top: 65px;
+    left: 30px;
+}
+/* contents_wrapper > contents > Ariel ------------------------------------*/
+.contents_wrapper .contents .Ariel{
+    position: relative;
+}
+.contents_wrapper .contents .Ariel h1{
+    position: absolute;
+    top: 15px;
+    left: 20px;
+}
+.contents_wrapper .contents .Ariel h2{
+    position: absolute;
+    top: 45px;
+    left: 30px;
+}
+.contents_wrapper .contents .Ariel p{
+    position: absolute;
+    top: 65px;
+    left: 30px;
+}
+/* contents_wrapper > contents > Pluto ------------------------------------*/
+.contents_wrapper .contents .Pluto{
+    position: relative;
+}
+.contents_wrapper .contents .Pluto h1{
+    position: absolute;
+    top: 15px;
+    left: 20px;
+}
+.contents_wrapper .contents .Pluto h2{
+    position: absolute;
+    top: 45px;
+    left: 30px;
+}
+.contents_wrapper .contents .Pluto p{
+    position: absolute;
+    top: 65px;
+    left: 30px;
+}
+/* contents_wrapper > contents > Primevere ------------------------------------*/
+.contents_wrapper .contents .Primevere{
+    position: relative;
+}
+.contents_wrapper .contents .Primevere h1{
+    position: absolute;
+    top: 15px;
+    left: 20px;
+}
+.contents_wrapper .contents .Primevere h2{
+    position: absolute;
+    top: 45px;
+    left: 30px;
+}
+.contents_wrapper .contents .Primevere p{
+    position: absolute;
+    top: 65px;
+    left: 30px;
+}
+/* contents_wrapper > contents > Venus ------------------------------------*/
+.contents_wrapper .contents .Venus{
+    position: relative;
+}
+.contents_wrapper .contents .Venus h1{
+    position: absolute;
+    top: 15px;
+    left: 20px;
+}
+.contents_wrapper .contents .Venus h2{
+    position: absolute;
+    top: 45px;
+    left: 30px;
+}
+.contents_wrapper .contents .Venus p{
+    position: absolute;
+    top: 65px;
+    left: 30px;
+}
+/* contents_wrapper > contents > Alice ------------------------------------*/
+.contents_wrapper .contents .Alice{
+    position: relative;
+}
+.contents_wrapper .contents .Alice h1{
+    position: absolute;
+    top: 15px;
+    left: 20px;
+}
+.contents_wrapper .contents .Alice h2{
+    position: absolute;
+    top: 45px;
+    left: 30px;
+}
+.contents_wrapper .contents .Alice p{
+    position: absolute;
+    top: 65px;
+    left: 30px;
+}
+/* contents_wrapper > contents > Saturn ------------------------------------*/
+.contents_wrapper .contents .Saturn{
+    position: relative;
+}
+.contents_wrapper .contents .Saturn h1{
+    position: absolute;
+    top: 15px;
+    left: 20px;
+}
+.contents_wrapper .contents .Saturn h2{
+    position: absolute;
+    top: 45px;
+    left: 30px;
+}
+.contents_wrapper .contents .Saturn p{
+    position: absolute;
+    top: 65px;
+    left: 30px;
+}
+/* contents_wrapper > contents > Luna ------------------------------------*/
+.contents_wrapper .contents .Luna{
+    position: relative;
+}
+.contents_wrapper .contents .Luna h1{
+    position: absolute;
+    top: 15px;
+    left: 20px;
+}
+.contents_wrapper .contents .Luna h2{
+    position: absolute;
+    top: 45px;
+    left: 30px;
+}
+.contents_wrapper .contents .Luna p{
+    position: absolute;
+    top: 65px;
+    left: 30px;
+}
