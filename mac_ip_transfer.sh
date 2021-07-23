@@ -23,3 +23,5 @@ echo -en "\r調査結果-----------------------\n"
 echo "address of ($MAC_ADDRESS) is"
 echo |arp -a|grep ether|grep -i $MAC_ADDRESS |awk '{print $2}'
 exit
+
+
